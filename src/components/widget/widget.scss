@@ -1,0 +1,47 @@
+.widget {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 24px 0px;
+  padding: 1rem;
+  height: 150px;
+  border-radius: 5px;
+
+  .widget__left , .widget__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+        .users{
+            font-size: 14px;
+            color: rgb(172, 172, 172);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .profit{
+            font-size: 32px;
+        }
+        .link{
+            font-size: 12px;
+            text-decoration: underline;
+            color: rgb(157, 157, 157);
+        }
+    
+        .percentage{
+            display: flex;
+            justify-content: center;
+            
+
+            &.positive{
+                color: green;
+                
+            }
+
+        }
+        .icon{
+            padding: 5px;
+            display: flex;
+            align-self: flex-end;
+        }
+  }
+}

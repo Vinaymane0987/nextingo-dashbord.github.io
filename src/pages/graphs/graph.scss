@@ -1,0 +1,16 @@
+.graph{
+    display: flex;
+    .graphContainer{
+        flex: 6;
+
+        .listContainer {
+            padding: 20px;
+      
+            .listTitle{
+              color: gray;
+              margin-bottom: 15px;
+              font-weight: 500;
+            }
+          }
+    }
+}

@@ -1,0 +1,77 @@
+.signup {
+  padding: 4rem 6rem;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .signup__container {
+    .box {
+      padding: 2.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      border: 1px solid black;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        border-radius: 4px;
+      h1 {
+        padding: 0.5rem;
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+      }
+      label {
+        margin: 1.5rem 0;
+        font-size: 24px;
+        font-weight: 500;
+        color: black;
+      }
+      input {
+        line-height: 3;
+        width: 230px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 5px;
+        border: 1px solid black;
+        background: transparent;
+      }
+
+      .submitbutton {
+        margin-top: 1.5rem;
+        width: 240px;
+        line-height: 3;
+        border: 1px solid black;
+        background: transparent;
+      }
+
+      .googlebutton{
+        display: flex;
+        align-items: center;
+        margin: 1.5rem 0;
+        padding: 0.5rem;
+        margin-bottom:  0;
+        border: 1px solid black;
+        width: 220px;
+        justify-content: space-evenly;
+        
+        button{
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+
+        button{
+            background: transparent;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+      }
+    }
+  }
+}

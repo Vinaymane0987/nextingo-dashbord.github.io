@@ -1,0 +1,16 @@
+.chart{
+    margin: 3rem 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 24px 0px;
+    .lineChart__Box{
+        margin-top: 1rem;
+        height: 350px;
+        box-sizing: border-box;
+        border: 1px solid rgb(221, 221, 221);
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .linechart{
+        width: 100%;
+        height: 100%;   
+    } 
+}

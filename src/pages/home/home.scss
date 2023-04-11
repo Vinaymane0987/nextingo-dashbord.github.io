@@ -1,0 +1,49 @@
+.home {
+  display: flex;
+  .homecontainer {
+    flex: 6;
+
+    .widgets{
+      display: flex;
+      gap: 20px;
+      padding: 20px;      
+    }
+    .charts {
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .home__components{
+      display: flex;
+      gap: 1rem;
+      padding: 20px;
+      height: 56vh;
+      .home__car{
+        flex: 0.4;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 24px 0px;
+        box-sizing: border-box;
+        overflow: hidden;
+        img{
+          height: 100%;
+          width: 100%;
+          object-fit: contain;
+        }
+      }
+      .home__alerts{  
+        flex: 0.4;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 24px 0px;
+        box-sizing: border-box;
+      }
+      .home__map{
+        flex: 0.4;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 24px 0px;
+        box-sizing: border-box;
+      }
+    }
+      
+    .charts {
+      padding: 5px 20px;
+    }
+  }
+}
