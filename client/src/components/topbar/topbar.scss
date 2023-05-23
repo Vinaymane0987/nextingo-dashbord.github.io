@@ -1,0 +1,65 @@
+.topbar{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(248, 248, 248);
+    border-bottom: 0.5px solid rgb(230, 230, 230);
+    
+    .wrapper{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+
+        .search{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 3px;
+            border: 0.5px solid lightgray;
+
+            input
+            {
+                border: none;
+                outline: none;
+                background: transparent;
+
+                &::placeholder{
+                    font-size: 12px;
+                }
+            }
+        }
+        
+         .items{
+            display: flex;
+            align-items: center;
+
+            .item{
+                display: flex;
+                align-items: center;
+                margin: 20px;
+                position: relative;
+
+                .topbaricons{
+                    font-size: 20px;
+                }
+
+                .item__msg{
+                    height: 15px;
+                    width: 15px;
+                    border-radius: 50%;
+                    background-color: red;
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 10px;
+                    position: absolute;
+                    top: -12%;
+                    right: -12%;
+                }
+            }
+         }
+    }
+}

@@ -1,0 +1,12 @@
+.management__container {
+  height: 400px;
+  padding: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 24px 0px;
+  display: flex;
+  flex: 0.95;
+  box-sizing: border-box;
+  border-radius: 5px;
+  .chartjs-render-monitor {
+    margin: auto 0px;
+  }
+}

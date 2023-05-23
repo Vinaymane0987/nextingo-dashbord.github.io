@@ -1,0 +1,98 @@
+.home {
+  display: flex;
+  .homecontainer {
+    flex: 6;
+    scroll-behavior: smooth;
+
+    .widgets {
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+    }
+    .charts {
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+      justify-content: space-between;
+    }
+
+    .home__components {
+      display: flex;
+      gap: 1rem;
+      padding: 20px;
+      height: 400px;
+      box-sizing: border-box;
+
+      .home__car {
+        flex: 1;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 24px 0px;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: contain;
+        }
+      }
+      .home__alerts {
+        flex: 1;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 24px 0px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .home__map {
+      flex: 1;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 24px 0px;
+      box-sizing: border-box;
+      height: 250px;
+      margin: 20px;
+
+      .map__container{
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .charts {
+      padding: 5px 20px;
+    }
+
+    .home__management {
+      display: flex;
+      gap: 1rem;
+      padding: 20px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .home__wigid3 {
+      display: flex;
+      gap: 1rem;
+      padding: 20px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .home__wigid5 {
+      display: flex;
+      gap: 1rem;
+      padding: 20px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .home__wigid7 {
+      display: flex;
+      gap: 1rem;
+      padding: 20px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+}

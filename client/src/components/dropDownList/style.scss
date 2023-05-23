@@ -1,0 +1,37 @@
+.dropdownlist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px 0 10px;
+
+  .dropdownlist-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .search {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 3px;
+      border: 0.5px solid lightgray;
+
+      input {
+        border: none;
+        outline: none;
+        background: transparent;
+
+        &::placeholder {
+          font-size: 12px;
+        }
+      }
+    }
+
+    .dropdown-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+  }
+}

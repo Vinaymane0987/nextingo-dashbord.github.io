@@ -1,0 +1,12 @@
+.report {
+  display: flex;
+  .listContainer {
+    flex: 6;
+
+    .listContainer__bar{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+  }
+}
